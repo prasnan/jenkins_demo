@@ -26,4 +26,14 @@ public class TeacherController {
 		}
 		return list.toString();
 	}
-}
+	
+	@GetMapping("/teachers/{qualification}")
+	public String TeacherId(@PathVariable("qualification") String qualification) {
+		List<String> list = Arrays.asList("amar","akbar","antony");
+			if(qualification.equals("b.sc")) {
+				list = Arrays.asList("prasanna","raja","ramu");
+			}
+		return list.toString();
+		}
+	}
+
