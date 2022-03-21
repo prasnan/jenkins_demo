@@ -36,10 +36,10 @@ public class TeacherController {
 			}
 		return list.toString();
 		}
-	@PostMapping("/teachers")
-	public String TeacherId() {
-		List<Integer> list = Arrays.asList(101,107,109);
-		return list.toString();
-	}
+//	@PostMapping("/teachers")
+//	public String TeacherId() {
+//		List<Integer> list = Arrays.asList(101,107,109);
+//		return list.toString();
+//	}
 	}
 
