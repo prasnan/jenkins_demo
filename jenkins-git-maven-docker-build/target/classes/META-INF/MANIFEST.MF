@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: jenkins-git-maven-docker-build
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Prasanna.P
+Implementation-Vendor-Id: com.example
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://spring.io/projects/spring-boot/jenkins-git
+ -maven-docker-build
+Created-By: Maven Integration for Eclipse
+
