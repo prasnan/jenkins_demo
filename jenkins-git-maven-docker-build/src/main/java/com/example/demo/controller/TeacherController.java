@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -35,5 +36,10 @@ public class TeacherController {
 			}
 		return list.toString();
 		}
+	@PostMapping("/teachers")
+	public String TeacherId() {
+		List<Integer> list = Arrays.asList(101,107,109);
+		return list.toString();
+	}
 	}
 
